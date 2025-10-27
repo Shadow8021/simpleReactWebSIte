@@ -9,7 +9,6 @@
     position: relative;
 }
 
-
 .menu {
     display: none;
 }
@@ -21,6 +20,7 @@
     height: 100%;
 
 }
+
 .loginBtn {
     padding: 8px 12px;
     margin-left: 3px;
@@ -51,7 +51,7 @@ ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 70%;
     margin-right: 30px;
     position: absolute;
     right: 4px;
@@ -59,10 +59,11 @@ ul {
 }
 
 ul li {
-    margin: 0 10px;
-    font-size: calc(23px-1rem);
+    margin-top: 6px;
+    font-size: calc(1rem);
     cursor: pointer;
     font-family: arial;
+
 }
 
 .item::after {
@@ -105,7 +106,8 @@ ul li {
         left: -320px;
         transition: .4s ease-in-out;
     }
-    .navDivActive{
+
+    .navDivActive {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -118,7 +120,8 @@ ul li {
         transition: .4s ease-in-out;
     }
 
-    .menu , .activeMenu {
+    .menu,
+    .activeMenu {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -149,12 +152,14 @@ ul li {
         border-radius: 5px;
         position: static;
         top: 50%;
-        left:50;
+        left: 50;
         transform: translate(50% 50%)
     }
-.activeMenu .ligne2 {
+
+    .activeMenu .ligne2 {
         display: none;
     }
+
     .activeMenu .ligne1 {
         margin-top: 5px;
         transform: rotate(-50deg);
