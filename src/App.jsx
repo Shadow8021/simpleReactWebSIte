@@ -1,4 +1,4 @@
-// import './App.css'
+import './App.css'
 
 import NavBar from './components/Navbar/Navbar'
 import HeroSection from "./components/HeroSection/HeroSection"

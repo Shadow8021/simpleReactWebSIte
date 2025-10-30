@@ -1,8 +1,10 @@
-// import { Aboutinfo } from "./AboutInfo"
 import style from "./About.module.css"
 export default function About() {
-    <div className={style.About}>
-        <h2>Lorem, ipsum dolor.</h2>
-        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, minus ipsum temporibus repellendus aspernatur asperiores commodi, libero a aliquid voluptatem aperiam hic omnis debitis.</h4>
+    return(<div className={style.About}>
+        <h2>A propos de nous</h2>
+        <p>Nous accompagnons les entreprises et les particuliers dans la transformation numérique sécurisée, à travers le développement d'application modernes, la formation et la cybersécurité "
+</p>
+<p>formez-vous et obtenez des nouvelles compétences des les domaines clés du digital et de la sécurité informatique</p>
+
     </div>
-}
+)}
