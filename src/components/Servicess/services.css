@@ -1,5 +1,6 @@
 .serviceH {
     font-size: calc(2rem);
+    margin-top: 20px;
 }
 
 .services {
@@ -15,7 +16,7 @@
 .serviceCard {
     width: 100%;
     height: 500px;
-    background-color: green;
+    /* background-color: green; */
     flex-wrap: wrap;
     display: flex;
     flex-direction: row;
@@ -30,7 +31,7 @@
 .serviceCard2 {
     width: 100%;
     height: 500px;
-    background-color: green;
+    /* background-color: green; */
     flex-wrap: wrap;
     display: flex;
     flex-direction: row-reverse;
@@ -53,7 +54,7 @@
     width: calc(500px);
     height: 400px;
     position: relative;
-    background-color: red;
+    /* background-color: red; */
 
 
 }
@@ -74,7 +75,7 @@
 }
 
 .serviceInfo {
-    background-color: blue;
+    /* background-color: blue; */
     max-width: 100%;
     height: 300px;
     min-height: 200px;
