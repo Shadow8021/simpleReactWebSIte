@@ -8,6 +8,7 @@
     height: auto;
     display: flex;
     flex-direction: column;
+    gap: 2px;
     place-items: center;
     max-width: 100%;
     border-top: solid rgb(128, 158, 255) 1px;
@@ -15,67 +16,47 @@
 
 .serviceCard {
     width: 100%;
-    height: 500px;
-    /* background-color: green; */
-    flex-wrap: wrap;
+    height: 400px;
     display: flex;
-    flex-direction: row;
+    flex-flow: row;
     gap: 2;
     place-items: center;
     justify-content: space-around;
-    border-bottom: solid black 6px;
+    /* border-bottom: solid black 6px; */
     position: relative;
 
 }
 
 .serviceCard2 {
-    width: 100%;
-    height: 500px;
-    /* background-color: green; */
-    flex-wrap: wrap;
-    display: flex;
     flex-direction: row-reverse;
-    gap: 2;
-    place-items: center;
-    justify-content: space-around;
-    border-bottom: solid black 6px;
-    position: relative;
 
 }
-
-
-
-
-
-
 
 
 .serviceImageContainer {
-    width: calc(500px);
-    height: 400px;
+    width: calc(400px);
+    height: calc(400px);
     position: relative;
-    /* background-color: red; */
+
+
+    .serviceImage {
+        width: calc(90%);
+        max-width: 400px;
+        height: calc(80%);
+        position: absolute;
+        object-fit: cover;
+        border-radius: 10px;
+        min-height: 300px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% -50%);
+    }
 
 
 }
 
-.serviceImage {
-    width: 90%;
-    height: calc(90%);
-    position: absolute;
-    object-fit: cover;
-    border-radius: 10px;
-    min-height: 300px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% -50%);
-
-
-
-}
 
 .serviceInfo {
-    /* background-color: blue; */
     max-width: 100%;
     height: 300px;
     min-height: 200px;
