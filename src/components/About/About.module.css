@@ -6,24 +6,26 @@
     justify-content: center;
     align-items: center;
     padding: 20px auto;
-    h2{
+
+    h2 {
         font-size: calc(2.5rem);
-        color: rgb(0, 4, 255);
+        color: #CAE8FF;
         margin-bottom: 20px;
     }
 
-    p{
+    p {
         text-wrap: wrap;
         max-width: calc(80%);
         color: white;
         text-align: center;
         font-size: calc(1.3rem);
-        
+
     }
-    .infotext{
+
+    .infotext {
         text-wrap: wrap;
         max-width: calc(80%);
         text-align: center;
-        
+
     }
 }
