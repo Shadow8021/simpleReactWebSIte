@@ -1,0 +1,36 @@
+.branding {
+    background-color: red;
+    flex-flow: row wrap;
+    height: 500px;
+    place-items: center;
+}
+
+.contain {
+    background-color: green;
+    width: calc(90%);
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    place-items: center;
+    gap: 8px;
+
+
+
+}
+
+.logopart {
+    min-width: 200Px;
+    width: 40%;
+    height: 90px;
+    background-color: rebeccapurple;
+    position: relative;
+}
+
+.logoimg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
