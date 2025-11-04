@@ -39,3 +39,24 @@ h3 {
     height: 80%;
     object-fit: contain;
 }
+
+
+@media (max-width: 768px) {
+    .branding {
+        background-color: red;
+        height: auto;
+    }
+
+    .contain {
+        background-color: green;
+        width: calc(90%);
+        height: auto;
+    }
+
+    .logopart {
+        min-width: 200Px;
+        width: 80%;
+        height: 90px;
+
+    }
+}

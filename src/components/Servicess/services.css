@@ -75,3 +75,62 @@
     font-size: calc(3rem - 6px);
     color: #CAE8FF;
 }
+
+@media (max-width: 768px) {
+    .services {
+        height: auto;
+        padding: 20px 0;
+        overflow: hidden;
+    }
+
+    .serviceCard {
+        flex-flow: column;
+        justify-content: space-evenly;
+        border-top: solid black 6px;
+        position: relative;
+        background-color: red;
+        height: 424px;
+
+
+    }
+
+    .serviceInfo {
+        height: 50px;
+        background-color: green;
+        padding: 5px;
+
+
+    }
+
+    .serviceCard2 {
+        flex-direction: column;
+
+    }
+
+    .titreService {
+        max-width: 90%;
+        font-size: calc(2rem - 4px);
+        margin-left: 30px;
+
+    }
+
+    .sousTitre {
+        max-width: 90%;
+        font-size: calc(20px);
+        margin-left: 10px;
+    }
+
+    .serviceImage {
+        width: 100%;
+        height: 200px;
+        object-fit: contain;
+
+    }
+
+    .serviceImageContainer {
+        width: calc(390px);
+        height: 200px;
+        overflow: hidden;
+        border-radius: 15px;
+    }
+}
