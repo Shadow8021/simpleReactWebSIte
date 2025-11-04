@@ -1,18 +1,23 @@
 import "./Branding.css"
-import image3 from "../../assets/images/services/img3.png"
+import { donnees } from "../../assets/images/partenaire/partenaires"
 
 export default function Branding() {
     return (
+
         <div className="branding">
             <h3>ils nous font confiance</h3>
+
             <div className="contain">
-                <div className="logopart">
-                    <img className="logoimg" src={image3} alt="logo" />
-                </div>
-                <div className="logopart"></div>
-                <div className="logopart"></div>
-                <div className="logopart"></div>
+                {donnees.map((donnee) => (
+                    <div className="logopart">
+                        <img className="logoimg" src={donnee.image} alt="logo" />
+                    </div>
+                ))}
+
+
             </div>
+
         </div>
     )
+
 }
