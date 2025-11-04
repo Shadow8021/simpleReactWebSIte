@@ -1,0 +1,128 @@
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+    border-top: 2px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 4px;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.formulaire,
+.information {
+    width: 45%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.information {
+    padding-left: 20px;
+}
+
+.loginBtn {
+    padding: 10px 14px;
+    margin-left: 3px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(0, 4, 255);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+
+}
+
+.loginBtn:hover {
+    background-color: rgba(15, 18, 161, 0.856);
+
+}
+
+textarea {
+    width: calc(90%);
+    height: 100px;
+    border: 3px solid #5CB6F9;
+    border-radius: 5px;
+    resize: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+
+
+}
+
+form {
+    margin-left: 20px;
+}
+
+.Box1 {
+    h4 {
+        font-size: calc(2rem)
+    }
+
+    p {
+        letter-spacing: 1px;
+    }
+}
+
+.Box2 {
+    height: 80px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 10px 0;
+    margin-top: 10px;
+
+}
+
+
+.icon {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 4px;
+        max-width: 100%;
+        margin: 30px auto;
+    }
+
+    .formulaire,
+    .information {
+        width: 89%;
+        padding: 10px 0;
+    }
+
+    textarea {
+        width: 300px;
+        height: 100px;
+        border: 3px solid #5CB6F9;
+        border-radius: 5px;
+        resize: none;
+        outline: none;
+        background-color: transparent;
+        color: white;
+
+    }
+
+    .Box2 {
+        padding: 10px;
+        width: 98%;
+
+    }
+
+    p,
+    h4 {
+        max-width: 100%;
+        padding-left: calc(1rem)
+    }
+
+}

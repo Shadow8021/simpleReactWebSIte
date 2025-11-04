@@ -4,6 +4,7 @@ import HeroSection from "./components/HeroSection/HeroSection"
 import About from "./components/About/About"
 import { Services } from './components/Servicess/Services'
 import Branding from "./components/Branding/Branding"
+import Contact from "./components/Contact/Contact"
 
 function App() {
 
@@ -14,7 +15,7 @@ function App() {
       <About />
       <Services />
       <Branding />
-
+      <Contact />
     </>
   )
 }
