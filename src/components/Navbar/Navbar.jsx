@@ -15,10 +15,15 @@ export default function NavBar() {
 
     return (
         <>
-            <div className={active ? style.menu : style.activeMenu} onClick={handleClick} >
-                <div className={style.ligne1}></div>
-                <div className={style.ligne2}></div>
-                <div className={style.ligne3}></div>
+            <div className={style.resposiveMenu}>
+                <div className={active ? style.menu : style.activeMenu} onClick={handleClick} >
+                    <div className={style.ligne1}></div>
+                    <div className={style.ligne2}></div>
+                    <div className={style.ligne3}></div>
+                </div>
+                <div className={style.logo1}>
+                    <img src={logo} alt="logo" />
+                </div>
             </div>
 
 
