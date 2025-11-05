@@ -1,5 +1,4 @@
 .branding {
-    background-color: red;
     flex-flow: row wrap;
     height: 400px;
     place-items: center;
@@ -11,7 +10,6 @@ h3 {
 }
 
 .contain {
-    background-color: green;
     width: calc(90%);
     height: 80%;
     display: flex;
@@ -29,7 +27,6 @@ h3 {
     min-width: 200Px;
     width: 40%;
     height: 90px;
-    background-color: rebeccapurple;
     position: relative;
 }
 
@@ -43,12 +40,10 @@ h3 {
 
 @media (max-width: 768px) {
     .branding {
-        background-color: red;
         height: auto;
     }
 
     .contain {
-        background-color: green;
         width: calc(90%);
         height: auto;
     }

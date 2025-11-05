@@ -6,7 +6,9 @@ export default function HeroSection() {
         <div className={style.hero}>
             <div className={style.heropart}>
                 <h1>Restez toujours connecté</h1>
-                <Button value="Decouvrir nos services" className={style.actionBtn} />
+                <a href="#service">
+                    <Button value="Decouvrir nos services" className={style.actionBtn} />
+                </a>
             </div>
             <div className={`${style.heropart} ${style.heropart1}`}>
                 <img className={style.imageHero} src={hacker} alt="image" />

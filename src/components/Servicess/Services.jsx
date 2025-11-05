@@ -3,7 +3,7 @@ import "./services.css"
 
 export const Services = () => {
   return (
-    <div className='services'>
+    <div id="service" className='services'>
       <h2 className="serviceH">Nos Services</h2>
       {datas.map((data) => (
         <div key={data.id} className={data.id % 2 == 0 ? `serviceCard` : "serviceCard serviceCard2"}>

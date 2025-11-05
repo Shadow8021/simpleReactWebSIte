@@ -7,9 +7,9 @@ export default function Contact() {
     return (
         <div className="footer">
             <div className="formulaire">
-                <form action="" method="post">
-                    <textarea name="message" id="" placeholder="Ecrivez votre message ici..."></textarea><br />
-                    <Button value="envoyer" className="loginBtn" />
+                <form method="post">
+                    <textarea name="message" id="" placeholder="Ecrivez votre message ici..." required></textarea><br />
+                    <Button type="submit" value="envoyer" className="loginBtn" />
                 </form>
             </div>
             <div className="information">

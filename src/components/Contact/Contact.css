@@ -1,7 +1,6 @@
 .footer {
     width: 100%;
     height: auto;
-    background-color: aqua;
     border-top: 2px solid white;
     display: flex;
     justify-content: space-evenly;
@@ -59,8 +58,11 @@ form {
 }
 
 .Box1 {
+
+
     h4 {
-        font-size: calc(2rem)
+        font-size: calc(2rem);
+        padding-top: 10px;
     }
 
     p {

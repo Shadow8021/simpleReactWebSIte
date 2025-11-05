@@ -88,7 +88,6 @@
         justify-content: space-evenly;
         border-top: solid black 6px;
         position: relative;
-        background-color: red;
         height: 424px;
 
 
@@ -96,7 +95,6 @@
 
     .serviceInfo {
         height: 50px;
-        background-color: green;
         padding: 5px;
 
 
