@@ -86,7 +86,7 @@
     .serviceCard {
         flex-flow: column;
         justify-content: space-evenly;
-        border-top: solid black 6px;
+        border-top: solid #183ca0 6px;
         position: relative;
         height: 424px;
 

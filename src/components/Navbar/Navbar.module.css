@@ -12,6 +12,11 @@
     box-shadow: 0 -1px 10px 2px rgb(14, 33, 58);
 }
 
+.logo1 {
+    display: none;
+
+}
+
 .menu {
     display: none;
 }
