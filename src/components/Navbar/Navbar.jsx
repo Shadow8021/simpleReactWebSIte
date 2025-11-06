@@ -1,6 +1,6 @@
 import style from "./Navbar.module.css"
 import Button from "../Button/Button"
-import logo from "../../assets/images/logo.png"
+import logo from "../../assets/images/logo3.png"
 import { useState } from "react"
 
 
@@ -28,7 +28,9 @@ export default function NavBar() {
 
 
             <div className={active ? style.navDiv : style.navDivActive}>
-                <div className={style.logo}><img src={logo} alt="logo" /></div>
+                <div className={style.logo}>
+                    <img className="imglogo" src={logo} alt="logo" />
+                </div>
 
                 <nav>
                     <ul>
